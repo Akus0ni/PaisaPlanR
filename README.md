@@ -79,12 +79,22 @@ khud delete kar do.
 
 Naya `.apk` purane ke upar install kar do. Data rehta hai.
 
-Agar **"App not installed"** aaye, to iska matlab signing key badal gayi hai. Aise mein:
+**2.4.0 se pehle ke versions se aa rahe ho to ek baar ye karna padega.** Us waqt tak har
+release apni alag signing key ke saath ban raha tha, isliye naya APK purane ke upar chadhta
+hi nahi tha — **"App not installed"** wahi tha. 2.4.0 se key fix hai, aur uske baad ke
+saare upgrade seedhe upar lag jate hain.
 
-1. App kholo → Settings → backup file export karo (safe jagah rakho).
-2. Purana app uninstall karo.
+Sirf ek baar, isi kram mein:
+
+1. Purana app kholo → **Settings → Backup nikalo**, aur file safe jagah rakho.
+2. Purana app **uninstall** karo.
 3. Naya `.apk` install karo.
-4. Settings → import → wahi file wapas le aao.
+4. **Settings → Import** → wahi file wapas le aao.
+
+Step 1 chhoda to hisaab chala jayega — uninstall data ke saath jata hai.
+
+Iske baad bhi kabhi "App not installed" aaye to yahi chaar step phir se chalte hain, par
+aisa hona ab nahi chahiye.
 
 ---
 
